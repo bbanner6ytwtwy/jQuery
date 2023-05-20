@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery x Bootstrap Template.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous" defer="defer"></script>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .section{
+            padding: 5% 10%;
+            background-color: gold;
+        }
+        .section1{
+            padding: 3% 10%;
+            background-color: #0e3352;
+        }
+        .font-big{
+            font-size: 5vw;
+        }
+        .cursive{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .blue{
+            color: #0e3352;
+        }
+        .bg-blue{
+            background-color: #0e3352;
+        }
+        .blue-btn{
+            border: 3px solid #0e3352;
+            color: #0e3352;
+        }
+        .blue-btn:hover{
+            background-color: #0e3352;
+            color: white;
+            border: 0;
+        }
+        .light{
+            color: white;
+        }
+        .light:hover{
+            color: black;
+        }
+        .iframe{
+            width: 100%;
+            height: 100%;
+        }
+        .iframex{
+            width: 100%;
+            height: 200px;
+        }
+        .iframe1{
+            width: 100%;
+            height: 400px;
+        }
+        .contact-hover{
+            color: whitesmoke;
+        }
+        .contact-hover:hover{
+            color: gold;
+        }
+        @media (max-width: 1000px){
+            .font-big{
+                font-size: 12vw;
+            }
+            .iframe{
+                width: 100%;
+                height: 400px;
+            }
+            .section1{
+            padding: 3% 7%;
+            background-color: #0e3352;
+        }
+        }
+    </style>
+    <section class="section">
+         <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-1 fw-bold cursive" href="#">Vecterr</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-lg-5">
+              <li class="nav-item">
+                <a class="nav-link active blue" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link blue" href="#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link blue" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle blue" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Options
+                </a>
+                <ul class="dropdown-menu bg-blue">
+                  <li><a class="dropdown-item light" href="#">Account</a></li>
+                  <li><a class="dropdown-item light" href="#">Make payments</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item light" href="#">Get mega Discounts</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn blue-btn" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="row pt-lg-5 mt-lg-5 pt-3 mt-2">
+          <div class="col-lg-6 blue font-big cursive text-lg-start text-sm-center">
+              Leading Credit Card Payment Solutions in Nigeria.
+          </div>
+          <div class="col-lg-6">
+            <iframe src="https://embed.lottiefiles.com/animation/37960" class="iframe"></iframe>
+          </div>
+      </div>
+      <div class="row pt-5 mt-5" id="home">
+          <div class="col-lg-4 col-md-6 text-center">
+            <iframe src="https://embed.lottiefiles.com/animation/96570" class="iframex"></iframe>
+            <h3>Make Payments</h3>
+            <p class="opacity-75 px-sm-4 px-lg-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci at ut, eaque possimus quisquam! Ad cum voluptates corrupti omnis provident et maiores fuga, natus ducimus fugiat dicta excepturi autem.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <iframe src="https://embed.lottiefiles.com/animation/37464" class="iframex"></iframe>
+            <h3>Recieve Payments</h3>
+            <p class="opacity-75 px-sm-4 px-lg-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci at ut, eaque possimus quisquam! Ad cum voluptates corrupti omnis provident et maiores fuga, natus ducimus fugiat dicta excepturi autem.</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <iframe src="https://embed.lottiefiles.com/animation/23730" class="iframex"></iframe>
+            <h3>Business Transactions</h3>
+            <p class="opacity-75 px-sm-4 px-lg-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci at ut, eaque possimus quisquam! Ad cum voluptates corrupti omnis provident et maiores fuga, natus ducimus fugiat dicta excepturi autem.</p>
+          </div>
+      </div>
+      <div class="row pt-lg-5 mt-lg-5 pt-sm-2 mt-sm-1">
+          <div class="col-lg-6">
+            <iframe src="https://embed.lottiefiles.com/animation/103222" class="iframe1"></iframe>
+        </div>
+        <div class="col-lg-6 blue fs-2 cursive text-lg-start text-sm-center">
+            <h1 class="my-lg-5 py-lg-5 text-center mx-2">Make Secure Payments and Transcations with Blockchain Verification and user authentication.</h1>
+        </div>
+    </div>
+      <div class="row pt-lg-3 mt-lg-2 pt-sm-3 mt-sm-2 ">
+          <div class="col-12 text-center fs-1 cursive blue pb-lg-5" id="service">Our Services</div>
+          <div class="col-lg-4 col-md-6 text-center pb-sm-3 px-sm-5 px-lg-1 mb-sm-5">
+            <p class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, totam, quos consequatur magni eligendi et veniam voluptatem, consequuntur facere qui doloremque vitae. Rerum, quidem quae quam et minus harum cumque?</p>
+            <p class="fs-3 text-light opacity-75">24-7 services</p>
+            <i class="fa-solid fa-clock fa-3x opacity-75"></i>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mb-sm-5 px-sm-5 px-lg-1 mt-5">
+            <i class="fa-solid fa-lock fa-3x opacity-75"></i>
+            <p class="fs-3">Secure Payments</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi totam corporis beatae accusantium quidem saepe, sapiente natus necessitatibus. A obcaecati ipsum animi ipsa amet voluptatem eum, modi molestiae neque!</p>
+        </div>
+        <div class="col-lg-4 text-center pb-sm-3 px-sm-5 px-lg-1">
+            <p class="blue">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, laudantium doloremque fugit iste alias odio eum cumque praesentium mollitia rem nam velit. Pariatur rem est autem quis corporis, minus non.</p>
+            <p class="fs-3 text-light opacity-75">Blockchain Incryption</p>
+            <i class="fa-brands fa-hive fa-3x opacity-75"></i>
+        </div>
+    </div>
+      <div class="row pt-lg-3 mt-lg-2 pt-sm-3 mt-sm-2 text-center">
+          <div class="col-lg-4 mb-sm-5 px-sm-5 px-lg-1 mt-5 col-md-6">
+              <p class="fs-3 cursive">Basic card</p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dolore quibusdam accusamus modi omnis quo commodi, distinctio aspernatur facilis incidunt ea, consectetur natus saepe nihil. Nesciunt suscipit enim optio fugit!
+        </div>
+        <div class="col-lg-4 mb-sm-5 px-sm-5 px-lg-1 mt-5 col-md-6 blue"><p class="fs-3 cursive">Standard card</p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt nobis omnis, dolore quaerat repellendus facere suscipit facilis ea libero quibusdam rerum quos commodi, ab perspiciatis fugit est qui blanditiis itaque?
+        </div>
+        <div class="col-lg-4 mb-sm-5 px-sm-5 px-lg-1 mt-5 pt-2"><p class="fs-3 cursive">Premium card</p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam quidem est similique nisi blanditiis magni! Aperiam earum enim, corrupti nulla explicabo id exercitationem quam totam temporibus distinctio dicta eos! Fuga.
+        </div>
+    </div>
+    </section>
+    <section class="section1" id="contact">
+       <div class="row pt-3">
+           <div class="col-lg-4 col-6 text-center">
+               <h3 class="text-light">Contact us</h3>
+               <p class="pb-0 mb-0 text-light opacity-50">+234 080 283 9930</p>
+               <p class="pb-0 mb-0 text-light opacity-50">+234 080 283 9930</p>
+               <p class="pb-0 mb-0 text-light opacity-50">+234 080 283 9930</p>
+               <p class="pb-0 mb-0 text-light opacity-50">+234 080 283 9930</p>
+               <p class="pb-0 mb-0 text-light opacity-50">+234 080 283 9930</p>
+           </div>
+           <div class="col-lg-4 col-6  text-center">
+                <h3 class="text-light">State locations</h3>
+                <p class="pb-0 mb-0 text-light opacity-50">lagos</p>
+                <p class="pb-0 mb-0 text-light opacity-50">abia</p>
+                <p class="pb-0 mb-0 text-light opacity-50">osun</p>
+                <p class="pb-0 mb-0 text-light opacity-50">imo</p>
+                <p class="pb-0 mb-0 text-light opacity-50">Ogun</p>
+           </div>
+           <div class="col-lg-4 text-center mt-3">
+                <h3 class="text-light">Email and Socials</h3>
+                <p class="pb-0 mb-0 text-light opacity-50"><a class="text-decoration-none contact-hover" target="_blank" href="mailto:dhsgfshgdg@gmail.com">Company email</a></p>
+                <p class="pb-0 mb-0 text-light opacity-50"><a class="text-decoration-none contact-hover" target="_blank" href="http://www.instagram.com">instagram</a></p>
+                <p class="pb-0 mb-0 text-light opacity-50"><a class="text-decoration-none contact-hover" target="_blank" href="http://www.paypal.com">Our paypal</a></p>
+                <p class="pb-0 mb-0 text-light opacity-50"><a class="text-decoration-none contact-hover" target="_blank" href="http://www.google.com">Our Google</a></p>
+                <p class="pb-0 mb-0 text-light opacity-50"><a class="text-decoration-none contact-hover" target="_blank" href="tel:+23409039021880">Call us</a></p>
+           </div>
+       </div>
+       <div class="col-12 text-center py-4 text-light"  id="copyright"></div>
+    </section>
+    <script>
+      const date = new Date();
+      const year = date.getFullYear();
+      const copyright = document.getElementById("copyright");
+      copyright.innerHTML = "@Copyright " + year +" Akintunde just built this today.";
+    </script>
+</body>
+</html>
